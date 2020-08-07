@@ -1,0 +1,182 @@
+body{margin: 0px; background-color: Black}
+button{border: 0px;}
+.heading{
+  background-color: #DEAAFF;
+  padding: 40px;
+}
+.heading button h1{background-color:#DEAAFF;}
+.heading button{font-size: 200%;background-color: #DEAAFF;}
+*{
+  padding-left:10px;
+  padding-right: 10px;
+}
+.heading h4::first-line{background-color: #e158ed;}
+
+/*popup block*/
+.popup_backgroung{
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.8);
+  animation-name: fromtop;
+  animation-duration: 0.6s
+}
+@keyframes fromtop {
+  from {top:-300px; opacity:0.3}
+  to {top:0; opacity:1}
+}
+.content{
+  background-color:white;
+  font-size: 125%;
+  margin: auto;
+  padding: 20px;
+  border: 15px solid grey;
+  width: 80%;
+}
+.close{
+  color: red;
+  float: right;
+  font-size: 30px;
+  font-weight: bold;
+}
+.close:hover
+{
+  color: Black;
+  cursor: pointer;
+}
+
+/*heading block*/
+.heading_tags{ background-color: #C0FDFF;}
+.heading_tags>button{ background-color: #C0FDFF;}
+#con_main_hbtn+ul{
+  background-color: #C0FDFF;
+  margin-top: 0px;
+  padding: 50px;
+}
+#con_main_hbtn+ul button{background-color: #C0FDFF;}
+
+/*Input block*/
+.input_tags,.input_tags>button{background-color: #FFCBF2;}
+#con_main_intag+ul{
+  background-color:#FFCBF2;
+  margin-top: 0px;
+  padding: 50px;
+}
+#con_main_intag+ul button{background-color:#FFCBF2; padding: 15px;}
+
+
+/*Table block*/
+.tables,.tables>button{ background-color: #d8e2dc;}
+#con_main_table+table{background-color:#d8e2dc;}
+.table_bg{background-color: #d8e2dc; padding: 50px;}
+.table_bg button{background-color: #d8e2dc; padding: 10px;}
+table tr #normal_tblbtn
+{
+  width:100px;
+  height: 75px;
+  background-color: #d8e2dc;
+
+}
+.table_bg table tr #row_span_tblbtn
+{
+  height: 175px;
+  width: 100px;
+  background-color: #d8e2dc;
+
+}
+#col_span_tblbtn{
+  height: 100px;
+  width: 225px;
+  background-color: #d8e2dc;
+}
+
+/*Multimedia sectio*/
+.multimedia, .multimedia>button{background-color: #7bf1a8;}
+.multimedia_bg {background-color: #7bf1a8;padding: 50px;}
+.multimedia_bg button {
+  background-color: #7bf1a8;
+  padding: 20px;
+  border: solid #2a9134 2px;
+}
+center img, video, audio{border: solid Black 1px;}
+.multimedia_bg ul {margin-top: 0px;text-align:center;}
+
+/*Semantic block*/
+.semantic_elements, .semantic_elements>button{background-color: #ECBCFD;}
+#con_semantic_elements+table {background-color: #ECBCFD;}
+.semantic_bg{background-color: #ECBCFD; padding: 50px;}
+.semantic_bg table button {
+  font-size: 125%;
+  background-color: #ECBCFD;
+  padding: 30px;
+  border: solid Black 2px;
+  height: 100px;
+  width:300px;
+}
+#sem_foot,#sem_head{width: 630px;}
+#row_span_sem{height:200px;}
+
+/*Symbols and emoji*/
+.symbols_and_emoji, .symbols_and_emoji>button{background-color: #fdffb6;}
+#con_symbols_and_emoji+ul{
+  background-color:#fdffb6;
+  margin-top: 0px;
+  padding: 50px;
+}
+#con_symbols_and_emoji+ul button{background-color:#fdffb6; padding: 15px; font-size: 110%;}
+
+/*lists*/
+.lists,.lists>button{background-color: #aed9e0;}
+.list_bg{background-color: #aed9e0;}
+.list_bg ul{
+  background-color:#aed9e0;
+  padding: 15px;text-align: center;
+  margin-top: 0px;
+}
+.list_bg button{
+  background-color:#aed9e0;
+  padding: 15px;
+  width: 400px
+}
+
+/*text Formatting*/
+.text_formatting, .text_formatting>button{background-color: #f7e3af;}
+#con_text_formatting+ul{
+  background-color:#f7e3af;
+  margin-top: 0px;
+  padding: 50px;
+}
+#con_text_formatting+ul button{background-color:#f7e3af; padding: 15px;}
+
+/*extra controls*/
+.extra_controls, .extra_controls>button{background-color: #a5ffd6;}
+#con_extra_controls+ul{
+  background-color:#a5ffd6;
+  margin-top: 0px;
+  padding: 50px;
+}
+#con_extra_controls+ul button{background-color:#a5ffd6; padding: 15px;}
+
+/*reference*/
+.reference{
+  color: white;
+  text-align: center;
+  font-size: 125%;
+  margin-bottom: 50px;
+}
+.reference a[href^="https"]{
+  color: white;
+}
+.floating
+{
+  position: sticky;
+  top :30px;
+  margin-left:-15px;
+  background: rgba(255,255,255,0);
+}
